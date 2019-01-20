@@ -82,4 +82,4 @@ Client.on('guildMemberRemove', member =>{
     member.guild.channels.get('529376868411899905').send(member + " has left the server.")
 });
 
-Client.login('NTI5MzgxMTQ2MjgzNDc0OTU0.DwwAqA.lOZ8cH6d8YrqtznlNk3ClLSmpOg');
+Client.login(process.env.BOT_TOKEN);
